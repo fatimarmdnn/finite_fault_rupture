@@ -10,7 +10,7 @@ Steps to Prepare and Run the Simulation
         python prepare_input.py --eventfilename input_files/hayward_rupture.pkl
 ```
 
- ##2- Run the Simulation:
+ ## 2- Run the Simulation:
         Ensure that AxiSEM3D is installed and available in the current working directory.
         Run the simulation using your preferred method or script.
 
