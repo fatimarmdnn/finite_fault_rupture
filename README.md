@@ -3,8 +3,9 @@ Hayward Fault Rupture Simulation using AxiSEM3D
 This repository contains scripts and instructions for performing a finite rupture simulation on the Hayward Fault using AxiSEM3D.
 Steps to Prepare and Run the Simulation
 
-    Prepare Simulation Folder:
-        Before running the simulation, prepare the necessary input files by executing the following command:
+1- Prepare Simulation Folder:
+ 
+   Before running the simulation, prepare the necessary input files by executing the following command:
 
         bash
 
