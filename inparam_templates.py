@@ -72,7 +72,7 @@ time_axis:
     # what: record length (the end time in seismograms)
     # type: double
     # note: the start time depends on the source-time functions
-    record_length: 40.
+    record_length: 80.
 
     # what: user-specified Δt
     # type: string / doublectober
