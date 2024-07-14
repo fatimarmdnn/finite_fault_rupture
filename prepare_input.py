@@ -37,7 +37,7 @@ def main():
     
     args = get_args() 
     
-    sim_dir = "Hayward Rupture"
+    sim_dir = "Hayward_Rupture"
     os.mkdir(sim_dir)
                                    
     ## Create Input Folder ##

@@ -343,7 +343,7 @@ list_of_3D_models:
             # what: type of horizontal coordinates
             # type: string
             # only: DISTANCE_AZIMUTH / XY_CARTESIAN / LATITUDE_LONGITUDE
-            horizontal: LATITUDE_LONGITUDE
+            horizontal: DISTANCE_AZIMUTH
             # what: type of vertical coordinate
             # type: string
             # only: RADIUS / DEPTH
@@ -383,7 +383,7 @@ list_of_3D_models:
         properties:
             - VP:
                 # what: NetCDF variable
-                nc_var: Vp
+                nc_var: VP
                 # what: factor or unit
                 factor: 1
                 # what: reference kind
@@ -391,7 +391,7 @@ list_of_3D_models:
                 reference_kind: ABS
             - VS:
                 # what: NetCDF variable
-                nc_var: Vs
+                nc_var: VS
                 # what: factor or unit
                 factor: 1
                 # what: reference kind
@@ -399,7 +399,7 @@ list_of_3D_models:
                 reference_kind: ABS
             - RHO:
                 # what: NetCDF variable
-                nc_var: rho
+                nc_var: RHO
                 # what: factor or unit
                 factor: 1
                 # what: reference kind
@@ -407,7 +407,7 @@ list_of_3D_models:
                 reference_kind: ABS
             - QMU:
                 # what: NetCDF variable
-                nc_var: Qmu
+                nc_var: QMU
                 # what: factor or unit
                 factor: 1
                 # what: reference kind
@@ -415,7 +415,7 @@ list_of_3D_models:
                 reference_kind: ABS
             - QKAPPA:
                 # what: NetCDF variable
-                nc_var: Qkappa
+                nc_var: QKAPPA
                 # what: factor or unit
                 factor: 1
                 # what: reference kind
