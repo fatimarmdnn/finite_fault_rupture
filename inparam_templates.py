@@ -588,6 +588,14 @@ list_of_station_groups:
             #          con: hits output performace if buffer_size is small
             #       2) this parameter does not affect the final results
             flush: true
+            
+############################# element-wise #############################
+# what: list of element groups
+# type: array of objects
+# note: 1) different options such as channels and sampling rates can
+#          be used for different element groups
+#       2) use [] if no element group presents
+list_of_element_groups: []
             """
     return input_string
 
