@@ -1,6 +1,4 @@
 import numpy as np 
-import matplotlib.pyplot as plt
-import scipy as sp
 import pickle
 
 def inparam_source_file(eventfile):
@@ -72,7 +70,7 @@ time_axis:
     # what: record length (the end time in seismograms)
     # type: double
     # note: the start time depends on the source-time functions
-    record_length: 80.
+    record_length: 60.
 
     # what: user-specified Δt
     # type: string / doublectober
@@ -435,7 +433,7 @@ list_of_3D_models:
    
 
 
-def inparam_output_file(stations_name, stations_filename, stations_coords, dt):
+def inparam_output_file(stations_filename, stations_coords, dt):
     
 # Input:
 #       -stations_coords: only: LATITUDE_LONGITUDE / DISTANCE_AZIMUTH / XY_CARTESIAN
