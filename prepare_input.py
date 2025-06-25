@@ -54,7 +54,7 @@ def main():
         file.write(inparam_source_file(args.eventfilename))
             
     with open(os.path.join(sim_input_dir, 'inparam.output.yaml'), 'w') as file:
-        file.write(inparam_output_file(args.stations_name, args.stations_filename, args.stations_coords, args.sampling_period))
+        file.write(inparam_output_file(args.stations_filename, args.stations_coords, args.sampling_period))
         
     with open(os.path.join(sim_input_dir, 'inparam.nr.yaml'), 'w') as file:
         file.write(inparam_nr_file(args.nr_type, args.nr))
