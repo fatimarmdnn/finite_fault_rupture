@@ -66,12 +66,12 @@ def main():
     shutil.copy(os.path.join(args.shared_input_dir, 'AxiSEMCartesian_sfba_m500_1s.e'), sim_input_dir)
     shutil.copy(os.path.join(args.shared_input_dir, 'SFBA_finite_rupture_Nr0.nc'), sim_input_dir)
     shutil.copy(os.path.join(args.shared_input_dir, 'STATIONS_OUTPUT.txt'), sim_input_dir)
-    shutil.copy(os.path.join(args.shared_input_dir, 'SFBA_layer1_min500.nc'), sim_input_dir)
-    shutil.copy(os.path.join(args.shared_input_dir, 'SFBA_layer2.nc'), sim_input_dir)
-    shutil.copy(os.path.join(args.shared_input_dir, 'SFBA_layer3.nc'), sim_input_dir)
-    shutil.copy(os.path.join(args.shared_input_dir, 'SFBA_layer4.nc'), sim_input_dir)
-    shutil.copy(os.path.join(args.shared_input_dir, 'moho_smooth_24km.nc'), sim_input_dir)
-    shutil.copy(os.path.join(args.shared_input_dir, 'topo_smooth_100m_upsampled.nc'), sim_input_dir)
+    # shutil.copy(os.path.join(args.shared_input_dir, 'SFBA_layer1_min500.nc'), sim_input_dir)
+    # shutil.copy(os.path.join(args.shared_input_dir, 'SFBA_layer2.nc'), sim_input_dir)
+    # shutil.copy(os.path.join(args.shared_input_dir, 'SFBA_layer3.nc'), sim_input_dir)
+    # shutil.copy(os.path.join(args.shared_input_dir, 'SFBA_layer4.nc'), sim_input_dir)
+    # shutil.copy(os.path.join(args.shared_input_dir, 'moho_smooth_24km.nc'), sim_input_dir)
+    # shutil.copy(os.path.join(args.shared_input_dir, 'topo_smooth_100m_upsampled.nc'), sim_input_dir)
 
 
 if __name__ == "__main__":
